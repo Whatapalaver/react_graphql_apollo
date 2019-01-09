@@ -3,6 +3,9 @@
 Exploring GraphQL with React and Apollo
 Utilises an existing Node.js graphql server that runs on localhost:4000
 
+So far I have worked upto the Routing stage.
+Need to start again from the [Authentication stage](https://www.howtographql.com/react-apollo/5-authentication/)
+
 ## GraphQL Queries and Mutation Examples
 
 Query:
