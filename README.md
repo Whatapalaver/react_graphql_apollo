@@ -1,4 +1,42 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# HackerNews Tutorial
+
+Exploring GraphQL with React and Apollo
+Utilises an existing Node.js graphql server that runs on localhost:4000
+
+## GraphQL Queries and Mutation Examples
+
+Query:
+```
+{
+  feed {
+    links {
+      id
+      description
+      url
+    }
+  }
+}
+```
+
+Mutation:
+```
+mutation {
+  prismaLink: post(
+    description: "Prisma replaces traditional ORMs and makes it easy to build GraphQL servers 😎",
+    url: "https://www.prisma.io"
+  ) {
+    id
+  }
+  apolloLink: post(
+    description: "The best GraphQL client for React",
+    url: "https://www.apollographql.com/docs/react/"
+  ) {
+    id
+  }
+}
+```
+
+# Create_React_App Instructions
 
 ## Available Scripts
 
